@@ -504,6 +504,19 @@
 
         @media (min-width: 768px) { .detail-grid { grid-template-columns: 320px 1fr; } }
 
+@media (max-width: 767.98px) {
+            .detail-grid {
+                display: flex;
+                flex-direction: column;
+            }
+            .detail-grid > div:not(.detail-cover-col) {
+                order: 1;
+            }
+            .detail-cover-col {
+                order: 2;
+            }
+        }
+
         .detail-cover-col {
             display: flex;
             flex-direction: column;
