@@ -1333,9 +1333,10 @@
         <h1 onclick="showPage('home')">PROGETTI DI CLASSE</h1>
         <p class="subtitle">Incontri di lettura, musica e teatro nelle scuole</p>
         <nav class="top-nav">
-            <button class="nav-btn-secondary" onclick="showPage('home')"><i class="fa-solid fa-house"></i> Home Catalogo</button>
-            <button class="nav-btn-cta" onclick="showPage('contatti')"><i class="fa-solid fa-paper-plane"></i> Richiedi incontro con l'autore</button>
-            
+            <a href="index.html" class="nav-btn-secondary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;"><i class="fa-solid fa-house"></i> Home Catalogo</a>
+            <a href="index.html" onclick="window.location.href='index.html?page=contatti'; return false;" class="nav-btn-cta" style="text-decoration: none;">
+   	    <i class="fa-solid fa-paper-plane"></i> Richiedi incontro con l'autore
+            </a>
             <div id="user-status-badge" style="display: none;" class="user-status-badge">
                 <i class="fa-solid fa-circle-check"></i> Utente Iscritto (Materiali sbloccati)
             </div>
@@ -2802,7 +2803,7 @@
 
         <!-- LIBRO 3: SUPEREROI SENZA MASCHERE -->
         <section id="page-libro-3" class="page-section active">
-            <a href="index.html" class="btn btn-back" style="text-decoration: none;"><i class="fa-solid fa-arrow-left"></i> Torna alla Home</a>
+            <a href="index.html" class="btn btn-back" style="text-decoration: none;"><i class="fa-solid fa-arrow-left"></i> Torna al Catalogo</a>
 
             <div class="detail-card">
                 <div class="detail-grid">

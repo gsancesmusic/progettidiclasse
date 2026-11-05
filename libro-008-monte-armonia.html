@@ -1330,11 +1330,11 @@
 
     <!-- HEADER -->
     <header>
-        <h1 onclick="showPage('home')">PROGETTI DI CLASSE</h1>
+        <h1 onclick="window.location.href='index.html'" style="cursor: pointer;">PROGETTI DI CLASSE</h1>
         <p class="subtitle">Incontri di lettura, musica e teatro nelle scuole</p>
         <nav class="top-nav">
-            <button class="nav-btn-secondary" onclick="showPage('home')"><i class="fa-solid fa-house"></i> Home Catalogo</button>
-            <button class="nav-btn-cta" onclick="showPage('contatti')"><i class="fa-solid fa-paper-plane"></i> Richiedi incontro con l'autore</button>
+            <a href="index.html" class="nav-btn-secondary" style="text-decoration: none;"><i class="fa-solid fa-house"></i> Home Catalogo</a>
+            <a href="index.html?page=contatti" class="nav-btn-cta" style="text-decoration: none;"><i class="fa-solid fa-paper-plane"></i> Richiedi incontro con l'autore</a>
             
             <div id="user-status-badge" style="display: none;" class="user-status-badge">
                 <i class="fa-solid fa-circle-check"></i> Utente Iscritto (Materiali sbloccati)
@@ -3577,7 +3577,7 @@ Sono metafore dei nostri blocchi mentali. Sono simboli della passività dei nost
 
                     <div class="spec-item">
                         <div class="spec-label"><i class="fa-solid fa-qrcode"></i> Contenuti multimediali presenti nel libro</div>
-                        <div class="spec-value">13 colonne sonore originali</div>
+                        <div class="spec-value">13 colonne sonore originali + 1 trailer</div>
                     </div>
 
                     <div class="spec-item">
@@ -3585,18 +3585,19 @@ Sono metafore dei nostri blocchi mentali. Sono simboli della passività dei nost
                         <div class="spec-value" style="margin-top: 6px;">
                             <div class="accordion-block" id="ma-liberi-accordion">
                                 <button class="accordion-header-btn" onclick="toggleGenericAccordion('ma-liberi-accordion', event)">
-                                    <span><i class="fa-solid fa-music" style="color: var(--accent); margin-right: 8px;"></i> 13 colonne sonore originali</span>
+                                    <span><i class="fa-solid fa-music" style="color: var(--accent); margin-right: 8px;"></i> Trailer e 13 colonne sonore originali</span>
                                     <i class="fa-solid fa-chevron-down arrow-icon"></i>
                                 </button>
                                 <div class="accordion-content-box">
                                     <div style="display: flex; flex-direction: column; gap: 6px; padding-top: 10px;">
+					<a href="https://youtube.com/shorts/60C_eMVyAJc" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 0. Trailer di Monte Armonia</a>
                                         <a href="https://youtu.be/UDccR5dCVE4" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 1. La valle del Frastuono</a>
                                         <a href="https://youtu.be/812JEKnVA4o" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 2. Il diapason</a>
                                         <a href="https://youtu.be/2mJc7h70adk" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 3. Un violento terremoto</a>
                                         <a href="https://youtu.be/CSgxEAAND0Q" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 4. Il tradimento</a>
                                         <a href="https://youtu.be/2u0UedYsmac" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 5. Lo sciopero di LA</a>
                                         <a href="https://youtu.be/XWf1canc6mc" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 6. La scala sonora</a>
-                                        <a href="https://youtu.be/UfLghQyl7AQ" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 7. Una banda degna di nota</a>
+                                        <a href="https://youtu.be/UJBx4m4wPYY" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 7. Una banda degna di nota</a>
                                         <a href="https://youtu.be/eiPqW0cE-oE" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 8. Il sole vi attende</a>
                                         <a href="https://youtu.be/qp7w-IgFsVQ" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 9. Torna il caos</a>
                                         <a href="https://youtu.be/7x3AC85W5wg" target="_blank" class="free-material-btn"><i class="fa-brands fa-youtube"></i> 10. L’intreccio sonoro</a>

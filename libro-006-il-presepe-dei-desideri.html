@@ -1328,13 +1328,13 @@
 </head>
 <body>
 
-    <!-- HEADER -->
+   <!-- HEADER -->
     <header>
-        <h1 onclick="showPage('home')">PROGETTI DI CLASSE</h1>
+        <h1 onclick="window.location.href='index.html'">PROGETTI DI CLASSE</h1>
         <p class="subtitle">Incontri di lettura, musica e teatro nelle scuole</p>
         <nav class="top-nav">
-            <button class="nav-btn-secondary" onclick="showPage('home')"><i class="fa-solid fa-house"></i> Home Catalogo</button>
-            <button class="nav-btn-cta" onclick="showPage('contatti')"><i class="fa-solid fa-paper-plane"></i> Richiedi incontro con l'autore</button>
+            <a href="index.html" class="nav-btn-secondary" style="text-decoration: none;"><i class="fa-solid fa-house"></i> Home Catalogo</a>
+            <a href="index.html?page=contatti" class="nav-btn-cta" style="text-decoration: none;"><i class="fa-solid fa-paper-plane"></i> Richiedi incontro con l'autore</a>
             
             <div id="user-status-badge" style="display: none;" class="user-status-badge">
                 <i class="fa-solid fa-circle-check"></i> Utente Iscritto (Materiali sbloccati)
@@ -3147,12 +3147,12 @@ Sono metafore dei nostri blocchi mentali. Sono simboli della passività dei nost
                             <div class="spec-item">
                                 <div class="spec-label"><i class="fa-solid fa-align-left"></i> Sinossi</div>
                                 <div class="spec-value">
-                                    <p style="text-align: justify; margin-bottom: 15px;">Tra i vicoli contorti di una Napoli notturna, sfavillante di luci natalizie, serpeggia un arcano mistero. Un oscuro barbone è apparso sulla luccicante via San Gregorio Armeno. Cosa vuole? Come vive? E perché mai si trascina dietro quel presepe senza Bambinello? Per far luce sulla questione quattro ragazzini dovranno brancolare nel buio. Saranno offuscati da invidie e gelosie della gente, da interessi propri e tentazioni egoistiche. Solo chi saprà attraversare indenne questa cupa selva di sentimenti negativi scoprirà il vero significato dell’altruismo, dell’amicizia disinteressata e dell’amore profondo. Basta una piccola luce per dissolvere ogni tenebra. A te non resta che vivere la storia leggendo il libro e ascoltando i brani cantati dagli stessi personaggi, presenti nella sezione “Materiali di libero accesso” di questa pagina. Ma bada bene: non sarai solo un lettore, non sarai solo un ascoltatore. Alla fine dell’avventura anche tu avrai un solo desiderio da esprimere! Potrai farlo con il pulsante: “Ho letto il libro, voglio esprimere il mio desiderio” che sostituisce l’ultimo QR code del romanzo. Sarai l’ago della bilancia tra il bene e il male, tra le tenebre e la luce!</p>
+                                    <p style="text-align: justify; margin-bottom: 15px;">Tra i vicoli contorti di una Napoli notturna, sfavillante di luci natalizie, serpeggia un arcano mistero. Un oscuro barbone è apparso sulla luccicante via San Gregorio Armeno. Cosa vuole? Come vive? E perché mai si trascina dietro quel presepe senza Bambinello? Per far luce sulla questione quattro ragazzini dovranno brancolare nel buio. Saranno offuscati da invidie e gelosie della gente, da interessi propri e tentazioni egoistiche. Solo chi saprà attraversare indenne questa cupa selva di sentimenti negativi scoprirà il vero significato dell’altruismo, dell’amicizia disinteressata e dell’amore profondo. Basta una piccola luce per dissolvere ogni tenebra. A te non resta che vivere la storia leggendo il libro e ascoltando i brani cantati dagli stessi personaggi, presenti nella sezione “Materiali di libero accesso” di questa pagina. Ma bada bene: non sarai solo un lettore, non sarai solo un ascoltatore. Alla fine dell’avventura anche tu avrai un solo desiderio da esprimere! Potrai farlo con il pulsante: “Ho letto il libro, voglio registrarmi ed esprimere il mio desiderio puro” che sostituisce l’ultimo QR code del romanzo. Sarai l’ago della bilancia tra il bene e il male, tra le tenebre e la luce!</p>
                                     
                                     <!-- PULSANTI INTERATTIVI DESIDERI -->
                                     <div style="margin: 25px 0; display: flex; gap: 15px; justify-content: center; align-items: stretch; flex-wrap: wrap;">
                                         <button onclick="showPage('esprimi-desiderio')" class="btn" style="background: linear-gradient(135deg, #f39c12 0%, #d4af37 100%); color: #1f3144; font-weight: 800; padding: 13px 22px; width: auto; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(212,175,55,0.35); border-radius: 30px; display: inline-flex; align-items: center; gap: 8px;">
-                                            <i class="fa-solid fa-wand-magic-sparkles"></i> Ho letto il libro, voglio esprimere il mio desiderio puro
+                                            <i class="fa-solid fa-wand-magic-sparkles"></i> Ho letto il libro, voglio registrarmi ed esprimere il mio desiderio puro
                                         </button>
                                         <button onclick="showPage('leggi-desideri')" class="btn btn-primary" style="padding: 13px 22px; width: auto; font-size: 0.95rem; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px;">
                                             <i class="fa-solid fa-book-sparkles"></i> Leggi il desiderio puro degli altri lettori
